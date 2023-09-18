@@ -1,0 +1,24 @@
+.section-one {
+    height: 100dvh;
+    width: 100dvw;
+    background-color: var(--midnight-blue);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+  }
+  
+.section-one > h1 {
+    font-family: 'KenyanCoffee-Bold';
+    color: var(--snow-ice);
+    font-size: 200pt;
+    letter-spacing: 0;
+    margin-bottom: -10px;
+}
+
+.section-one > h2 {
+    font-family: 'KenyanCoffee-Bold';
+    color: var(--middle-yellow);
+    font-size: 200pt;
+    margin-top: -10px;
+}

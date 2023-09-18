@@ -1,0 +1,43 @@
+:root {
+  --middle-yellow: #ffe600;
+  --snow-ice: #fcf8f7;
+  --midnight-blue: #000a6b;
+}
+
+@font-face {
+  font-family: 'KenyanCoffee-Bold';
+  src: local('KenyanCoffee-Bold'), url('./fonts/kenyancoffeebd.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'KenyanCoffee-Regular';
+  src: local('KenyanCoffee-Regular'), url('./fonts/kenyancoffee.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PragmaticaLight';
+  src: local('PragmaticaLight'),
+  url('./fonts/Pragmatica_Extended-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PragmaticaMedium';
+  src: local('PragmaticaMedium'),
+  url('./fonts/Pragmatica_Extended-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PragmaticaBold';
+  src: local('PragmaticaBold'),
+  url('./fonts/Pragmatica_Extended-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PragmaticaBlack';
+  src: local('PragmaticaBlack'),
+  url('src/fonts/Pragmatica_Extended-Black.woff') format('woff');
+}
+
+* {
+  margin: 0;
+}

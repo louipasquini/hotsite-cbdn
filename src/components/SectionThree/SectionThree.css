@@ -1,0 +1,8 @@
+.section-three {
+    height: 100dvh;
+    width: 100dvw;
+    background-color: var(--snow-ice);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
