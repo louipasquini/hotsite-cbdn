@@ -10,7 +10,6 @@ const App = () => {
     <>
       <SectionOne />
       <SectionTwo />
-      <SectionThree />
     </>
   )
 }

@@ -1,24 +1,54 @@
 .section-one {
     height: 100dvh;
     width: 100dvw;
-    background-color: var(--midnight-blue);
     display: flex;
     justify-content: center;
-    flex-direction: column;
     padding-left: 60px;
+    transition: all 0.3s ease-in-out;
   }
+
+.section-one-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
   
-.section-one > h1 {
-    font-family: 'KenyanCoffee-Bold';
-    color: var(--snow-ice);
-    font-size: 200pt;
+.section-one-left > h2 {
+    font-size: 100pt;
     letter-spacing: 0;
     margin-bottom: -10px;
+    transition: all 0.3s ease-in-out;
 }
 
-.section-one > h2 {
-    font-family: 'KenyanCoffee-Bold';
-    color: var(--middle-yellow);
-    font-size: 200pt;
-    margin-top: -10px;
+.section-one-left > h4 {
+    letter-spacing: 0;
+    font-size: 18pt;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-one-line {
+    width: 2px;
+    height: 200px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-one-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -200px;
+    padding-right: 200px;
+}
+
+.section-one-right > img {
+    height: 500px;
+    box-shadow: 4px 0px 16px rgba(0,0,0,0.5);
+    rotate: 2deg;
 }
