@@ -57,7 +57,7 @@
 @media screen and (max-width: 1080px) {
     .section-one {
         width: 100dvw;
-        height: 100dvi;
+        height: 100dvh;
     }
 
     .section-one-left {
@@ -80,7 +80,7 @@
     .section-one-left > h4 {
         transform: translateX(0px);
         margin: 5px;
-        font-size: 2pt;
+        font-size: 50%;
     }
 
     .section-one-right {
@@ -101,7 +101,7 @@
 @media screen and (max-width: 800px) {
     .section-one {
         width: 100dvw;
-        height: 100dvi;
+        height: 100dvh;
     }
 
     .section-one-left {
@@ -125,7 +125,7 @@
     .section-one-left > h4 {
         transform: translateX(0px);
         margin-bottom: 5px;
-        font-size: 2pt;
+        font-size: 50%;
     }
 
     .section-one-right {
