@@ -75,7 +75,7 @@
     .section-one-left > h4 {
         transform: translateX(0px);
         margin: 5px;
-        font-size: 2dvw;
+        font-size: 1dvw;
     }
 
     .section-one-right {
