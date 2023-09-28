@@ -37,7 +37,7 @@ const SectionTwo = ({ fakeModel , originalCBDN , cbdnOn , setCbdnOn}) => {
         heightVideo = '300px'
     } else {
         widthVideo = '80%'
-        heightVideo = 'auto'
+        heightVideo = '200px'
     }
 
     return (
