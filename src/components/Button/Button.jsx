@@ -8,20 +8,11 @@ const Button = ({ cbdnOn , setCbdnOn }) => {
     }
 
     return (
-        <>
-            <h5 style={{
-                color: cbdnOn ? 'var(--snow-ice)' : 'gray',
-                width: '7%',
-                fontFamily: 'PragmaticaLight',
-                lineHeight: '20px',
-                marginTop: '80px'
-            }}>Veja o Brasil na neve</h5>
-            <div className="btnContainer">
-                <div className="btn" onClick={handleClick} style={{
-                    transform: cbdnOn ? 'translateX(72px)' : 'translateX(3px)'
-                }}></div>
-            </div>
-        </>
+        <div className="btnContainer">
+            <div className="btn" onClick={handleClick} style={{
+                transform: cbdnOn ? 'translateX(72px)' : 'translateX(3px)'
+            }}></div>
+        </div>
     )
 }
 

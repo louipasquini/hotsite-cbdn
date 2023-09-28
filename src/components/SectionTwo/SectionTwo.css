@@ -7,9 +7,42 @@
     flex-direction: column;
     transition: all 0.2s ease-in-out;
   }
+  
+.section-two > h4 {
+  width: 60%;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 1dvw;
+  margin-bottom: 60px;
+  line-height: 25pt;
+}
+
+@media screen and (max-width: 1080px) {
+  .section-two {
+    height: 100dvh;
+  }
 
   .section-two > h4 {
-    text-align: center;
-    line-height: 30px;
+    margin-top: 0;
+    text-align: justify;
+    font-size: 1.5dvw;
     margin-bottom: 60px;
+    line-height: 15pt;
   }
+}
+
+@media screen and (max-width: 800px) {
+  .section-two {
+    height: 130dvh;
+  }
+
+  .section-two > h4 {
+    width: 80%;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 3dvw;
+    margin-bottom: 60px;
+    line-height: 15pt;
+  }
+}
+

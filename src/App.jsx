@@ -3,7 +3,6 @@ import { useState } from 'react';
 import SectionOne from './components/SectionOne/SectionOne';
 import SectionTwo from './components/SectionTwo/SectionTwo';
 import './App.css';
-import SectionThree from './components/SectionThree/SectionThree';
 import Posters from './components/Posters/Posters';
 import cbdn1 from './assets/CBDN1.png';
 import cbdn2 from './assets/CBDN2.png';
@@ -25,9 +24,6 @@ const App = () => {
       font: 'OrbitronBold',
       secondaryFont: 'HelveticaNeue',
       image: cbdn1,
-      mainFontSize: '100pt',
-      secondFontSize: '14pt',
-      textFontSize: '12pt'
   },{
       model: 'CURSO BALÍSTICO DA NAÇÃO',
       backgroundColor: '#212E5E',
@@ -37,9 +33,6 @@ const App = () => {
       font: 'OrbitronBold',
       secondaryFont: 'OrbitronBold',
       image: cbdn2,
-      mainFontSize: '100pt',
-      secondFontSize: '14pt',
-      textFontSize: '12pt',
       secondLetterSpacing: '3pt'
   },{
       model: 'CONFEDERAÇÃO DOS BANCOS DA NAÇÃO',
@@ -50,9 +43,6 @@ const App = () => {
       font: 'HelveticaNeue67',
       secondaryFont: 'HelveticaNeue67',
       image: cbdn3,
-      mainFontSize: '130pt',
-      secondFontSize: '16pt',
-      textFontSize: '16pt',
       secondLetterSpacing: '3pt'
   },{
       model: 'COLETIVO BRASILEIRO DOS DETETIVES NOTURNOS',
@@ -63,9 +53,6 @@ const App = () => {
       font: 'BettyNoir',
       secondaryFont: 'HelveticaNeue',
       image: cbdn4,
-      mainFontSize: '100pt',
-      secondFontSize: '17pt',
-      textFontSize: '17pt'
   },{
       model: 'COMPANHIA BRASILEIRA DE DIMENSÃO NORTE',
       backgroundColor: '#00612C',
@@ -75,9 +62,6 @@ const App = () => {
       font: 'HelveticaNeue',
       secondaryFont: 'HelveticaNeue',
       image: cbdn5,
-      mainFontSize: '100pt',
-      secondFontSize: '14pt',
-      textFontSize: '14pt'
   },{
       model: 'CONFEDERAÇÃO BRASILEIRA DE DADOS NAVAIS',
       backgroundColor: '#5F100E',
@@ -87,10 +71,7 @@ const App = () => {
       font: 'BlockMarys',
       secondaryFont: 'HelveticaNeue',
       image: cbdn6,
-      mainFontSize: '100pt',
-      secondFontSize: '14pt',
-      textFontSize: '12pt',
-      letterSpacing: '10pt'
+      letterSpacing: '5pt'
   },{
       model: 'CONFEDERAÇÃO DOS BISPOS DA NAÇÃO',
       backgroundColor: '#31448F',
@@ -100,9 +81,6 @@ const App = () => {
       font: 'BisposBold',
       secondaryFont: 'BisposBold',
       image: cbdn7,
-      mainFontSize: '130pt',
-      secondFontSize: '14pt',
-      textFontSize: '14pt'
   },{
       model: 'COLETIVO DOS BOTAFOGUENSES DIRETAMENTE DE NAIRÓBI',
       backgroundColor: '#CFCCC1',
@@ -112,9 +90,6 @@ const App = () => {
       font: 'DharmaGothic',
       secondaryFont: 'DharmaGothic',
       image: cbdn8,
-      mainFontSize: '130pt',
-      secondFontSize: '20pt',
-      textFontSize: '19pt',
       letterSpacing: '10pt',
       secondLetterSpacing: '3pt'
   }]
@@ -128,9 +103,6 @@ const App = () => {
       font: 'KenyanCoffee-Bold',
       secondaryFont: 'PragmaticaLight',
       image: '',
-      mainFontSize: '130pt',
-      secondFontSize: '14pt',
-      textFontSize: '14pt'
   }
 
   function shuffleArray(arr) {
@@ -151,7 +123,7 @@ const App = () => {
     <>
       <SectionOne fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
       <SectionTwo fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
-      <Posters fakeCBDNModels={fakeCBDNModels} fakeModel={fakeModel} />
+      {/* <Posters fakeCBDNModels={fakeCBDNModels} fakeModel={fakeModel} /> */}
     </>
   )
 }
