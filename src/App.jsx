@@ -5,6 +5,7 @@ import SectionTwo from './components/SectionTwo/SectionTwo';
 import './App.css';
 import SectionThree from './components/SectionThree/SectionThree';
 import Posters from './components/Posters/Posters';
+import cbdn1 from './assets/CBDN1.png'
 
 const App = () => {
 
@@ -16,7 +17,7 @@ const App = () => {
       lineColor: '#3C2922',
       font: 'OrbitronBold',
       secondaryFont: 'HelveticaNeue',
-      image: './assets/CBDN1.png',
+      image: cbdn1,
       mainFontSize: '100pt',
       secondFontSize: '14pt',
       textFontSize: '12pt'
