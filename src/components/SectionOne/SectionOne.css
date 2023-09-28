@@ -88,8 +88,8 @@
 
     .section-one-right > img {
         transform: translateX(0);
-        width: 45dvw;
-        height: auto;
+        width: auto;
+        height: 50dvh;
         transform: translateY(50px);
     }
 }
@@ -129,7 +129,7 @@
 
     .section-one-right > img {
         transform: translateX(0);
-        width: 65dvw;
-        height: auto;
+        width: auto;
+        height: 40%;
     }
 }
