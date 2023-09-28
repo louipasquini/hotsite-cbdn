@@ -122,7 +122,7 @@ const App = () => {
   return (
     <>
       <SectionOne fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
-      {/* <SectionTwo fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} /> */}
+      <SectionTwo fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
       {/* <Posters fakeCBDNModels={fakeCBDNModels} fakeModel={fakeModel} /> */}
     </>
   )
