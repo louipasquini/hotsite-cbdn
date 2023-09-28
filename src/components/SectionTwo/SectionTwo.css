@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 800px) {
   .section-two {
-    height: 150dvh;
+    height: 200dvh;
   }
 
   .section-two > h4 {
