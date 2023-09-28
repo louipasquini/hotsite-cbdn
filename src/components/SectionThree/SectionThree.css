@@ -5,4 +5,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+}
+
+.section-three > h5 {
+    font-size: 14pt;
+    width: 30%;
+    color: grey;
+    text-align: center;
+}
+
+.section-three > div {
+    margin: 10px;
+}
+
+.section-three > div > svg {
+    fill: grey;
+    margin: 2px;
+}
+
+.section-three > h1 {
+    font-size: 60pt;
+    color: gray;
 }

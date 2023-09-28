@@ -3,7 +3,6 @@
     width: 100dvw;
     display: flex;
     justify-content: center;
-    padding-left: 60px;
     transition: all 0.3s ease-in-out;
   }
 
@@ -19,8 +18,9 @@
 .section-one-left > h2 {
     font-size: 100pt;
     letter-spacing: 0;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
     transition: all 0.3s ease-in-out;
+    transform: translateX(100px);
 }
 
 .section-one-left > h4 {
@@ -28,6 +28,8 @@
     font-size: 18pt;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
+    transform: translateX(100px);
+    font-size: 14pt;
 }
 
 .section-one-line {
@@ -35,6 +37,7 @@
     height: 200px;
     margin: 10px;
     transition: all 0.3s ease-in-out;
+    transform: translateX(100px);
 }
 
 .section-one-right {
@@ -43,12 +46,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -200px;
-    padding-right: 200px;
 }
 
 .section-one-right > img {
     height: 500px;
     box-shadow: 4px 0px 16px rgba(0,0,0,0.5);
     rotate: 2deg;
+    transform: translateX(-100px);
 }

@@ -1,0 +1,8 @@
+.posters {
+    height: auto;
+    display: flex;
+}
+
+.posters > img {
+    width: 15%;
+}
