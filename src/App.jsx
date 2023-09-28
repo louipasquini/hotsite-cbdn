@@ -5,7 +5,14 @@ import SectionTwo from './components/SectionTwo/SectionTwo';
 import './App.css';
 import SectionThree from './components/SectionThree/SectionThree';
 import Posters from './components/Posters/Posters';
-import cbdn1 from './assets/CBDN1.png'
+import cbdn1 from './assets/CBDN1.png';
+import cbdn2 from './assets/CBDN2.png';
+import cbdn3 from './assets/CBDN3.png';
+import cbdn4 from './assets/CBDN4.png';
+import cbdn5 from './assets/CBDN5.png';
+import cbdn6 from './assets/CBDN6.png';
+import cbdn7 from './assets/CBDN7.png';
+import cbdn8 from './assets/CBDN8.png';
 
 const App = () => {
 
@@ -29,7 +36,7 @@ const App = () => {
       lineColor: '#058034',
       font: 'OrbitronBold',
       secondaryFont: 'OrbitronBold',
-      image: 'src/assets/CBDN2.png',
+      image: cbdn2,
       mainFontSize: '100pt',
       secondFontSize: '14pt',
       textFontSize: '12pt',
@@ -42,7 +49,7 @@ const App = () => {
       lineColor: '#EECE00',
       font: 'HelveticaNeue67',
       secondaryFont: 'HelveticaNeue67',
-      image: 'src/assets/CBDN3.png',
+      image: cbdn3,
       mainFontSize: '130pt',
       secondFontSize: '16pt',
       textFontSize: '16pt',
@@ -55,7 +62,7 @@ const App = () => {
       lineColor: '#304591',
       font: 'BettyNoir',
       secondaryFont: 'BettyNoir',
-      image: 'src/assets/CBDN4.png',
+      image: cbdn4,
       mainFontSize: '100pt',
       secondFontSize: '17pt',
       textFontSize: '17pt'
@@ -67,7 +74,7 @@ const App = () => {
       lineColor: 'white',
       font: 'HelveticaNeue',
       secondaryFont: 'HelveticaNeue',
-      image: 'src/assets/CBDN5.png',
+      image: cbdn5,
       mainFontSize: '100pt',
       secondFontSize: '14pt',
       textFontSize: '14pt'
@@ -79,7 +86,7 @@ const App = () => {
       lineColor: '#E9C800',
       font: 'BlockMarys',
       secondaryFont: 'HelveticaNeue',
-      image: 'src/assets/CBDN6.png',
+      image: cbdn6,
       mainFontSize: '100pt',
       secondFontSize: '14pt',
       textFontSize: '12pt'
@@ -91,7 +98,7 @@ const App = () => {
       lineColor: '#D4D0C5',
       font: 'BisposBold',
       secondaryFont: 'BisposBold',
-      image: 'src/assets/CBDN7.png',
+      image: cbdn7,
       mainFontSize: '130pt',
       secondFontSize: '14pt',
       textFontSize: '14pt'
@@ -103,7 +110,7 @@ const App = () => {
       lineColor: '#191918',
       font: 'DharmaGothic',
       secondaryFont: 'DharmaGothic',
-      image: 'src/assets/CBDN8.png',
+      image: cbdn8,
       mainFontSize: '130pt',
       secondFontSize: '20pt',
       textFontSize: '19pt',
@@ -144,7 +151,7 @@ const App = () => {
       <SectionOne fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn}/>
       <SectionTwo fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} />
       <SectionThree fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
-      <Posters />
+      <Posters fakeCBDNModels={fakeCBDNModels} fakeModel={fakeModel} />
     </>
   )
 }
