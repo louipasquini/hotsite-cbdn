@@ -16,7 +16,7 @@ const App = () => {
       lineColor: '#3C2922',
       font: 'OrbitronBold',
       secondaryFont: 'HelveticaNeue',
-      image: 'src/assets/CBDN1.png',
+      image: './assets/CBDN1.png',
       mainFontSize: '100pt',
       secondFontSize: '14pt',
       textFontSize: '12pt'

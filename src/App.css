@@ -35,49 +35,49 @@
 @font-face {
   font-family: 'PragmaticaBlack';
   src: local('PragmaticaBlack'),
-  url('src/fonts/Pragmatica_Extended-Black.woff') format('woff');
+  url('./fonts/Pragmatica_Extended-Black.woff') format('woff');
 }
 
 @font-face {
   font-family: 'BlockMarys';
   src: local('BlockMarys'),
-  url('src/fonts/block-marys.woff') format('woff');
+  url('./fonts/block-marys.woff') format('woff');
 }
 
 @font-face {
   font-family: 'BettyNoir';
   src: local('BettyNoir'),
-  url('src/fonts/bettynoir.woff') format('woff');
+  url('./fonts/bettynoir.woff') format('woff');
 }
 
 @font-face {
   font-family: 'HelveticaNeue';
   src: local('HelveticaNeue'),
-  url('src/fonts/Helvetica-Neue-Medium-Extended.woff') format('woff');
+  url('./fonts/Helvetica-Neue-Medium-Extended.woff') format('woff');
 }
 
 @font-face {
   font-family: 'HelveticaNeue67';
   src: local('HelveticaNeue67'),
-  url('src/fonts/Helvetica-Neue-67-Medium-Condensed.woff') format('woff');
+  url('./fonts/Helvetica-Neue-67-Medium-Condensed.woff') format('woff');
 }
 
 @font-face {
   font-family: 'DharmaGothic';
   src: local('DharmaGothic'),
-  url('src/fonts/Dharma-Gothic-E-Light.woff') format('woff');
+  url('./fonts/Dharma-Gothic-E-Light.woff') format('woff');
 }
 
 @font-face {
   font-family: 'OrbitronBold';
   src: local('OrbitronBold'),
-  url('src/fonts/5470.woff') format('woff');
+  url('./fonts/5470.woff') format('woff');
 }
 
 @font-face {
   font-family: 'BisposBold';
   src: local('BisposBold'),
-  url('src/fonts/32119.woff') format('woff');
+  url('./fonts/32119.woff') format('woff');
 }
 
 * {
