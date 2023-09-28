@@ -1,8 +1,9 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import SectionThree from "../SectionThree/SectionThree";
 import './SectionTwo.css';
 
-const SectionTwo = ({ fakeModel , originalCBDN , cbdnOn}) => {
+const SectionTwo = ({ fakeModel , originalCBDN , cbdnOn , setCbdnOn}) => {
     const previousText = <h4 style={{
         color: cbdnOn ? originalCBDN.mainFontColor : 'gray',
         fontFamily: cbdnOn ? originalCBDN.secondaryFont : fakeModel.secondaryFont,
@@ -31,6 +32,7 @@ const SectionTwo = ({ fakeModel , originalCBDN , cbdnOn}) => {
     }}>
         {cbdnOn ? newText : previousText}
         <ReactPlayer controls='true' url='https://www.youtube.com/watch?v=sst0lNnmYAM'/>
+        <SectionThree fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
     </div>
     )
 }

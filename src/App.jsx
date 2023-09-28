@@ -61,7 +61,7 @@ const App = () => {
       secondaryFontColor: '#304591',
       lineColor: '#304591',
       font: 'BettyNoir',
-      secondaryFont: 'BettyNoir',
+      secondaryFont: 'HelveticaNeue',
       image: cbdn4,
       mainFontSize: '100pt',
       secondFontSize: '17pt',
@@ -89,7 +89,8 @@ const App = () => {
       image: cbdn6,
       mainFontSize: '100pt',
       secondFontSize: '14pt',
-      textFontSize: '12pt'
+      textFontSize: '12pt',
+      letterSpacing: '10pt'
   },{
       model: 'CONFEDERAÇÃO DOS BISPOS DA NAÇÃO',
       backgroundColor: '#31448F',
@@ -148,9 +149,8 @@ const App = () => {
 
   return (
     <>
-      <SectionOne fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn}/>
-      <SectionTwo fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} />
-      <SectionThree fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
+      <SectionOne fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
+      <SectionTwo fakeModel={fakeModel} originalCBDN={originalCBDN} cbdnOn={cbdnOn} setCbdnOn={setCbdnOn} />
       <Posters fakeCBDNModels={fakeCBDNModels} fakeModel={fakeModel} />
     </>
   )
