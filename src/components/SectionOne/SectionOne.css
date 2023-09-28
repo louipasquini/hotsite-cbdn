@@ -57,7 +57,7 @@
 @media screen and (max-width: 1080px) {
     .section-one {
         width: 100dvw;
-        height: 100dvh;
+        height: 200dvh;
     }
 
     .section-one-left {
@@ -101,7 +101,7 @@
 @media screen and (max-width: 800px) {
     .section-one {
         width: 100dvw;
-        height: 100dvh;
+        height: 200dvh;
     }
 
     .section-one-left {
