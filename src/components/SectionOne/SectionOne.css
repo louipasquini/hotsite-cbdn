@@ -54,10 +54,10 @@
     transform: translateX(-100px);
 }
 
-@media screen and (max-width: 1080px) {
+@media (max-width: 1081px) {
     .section-one {
         width: 100dvw;
-        height: 200dvh;
+        height: 100dvh;
     }
 
     .section-one-left {
@@ -98,10 +98,10 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 801px) {
     .section-one {
         width: 100dvw;
-        height: 200dvh;
+        height: 100dvh;
     }
 
     .section-one-left {
