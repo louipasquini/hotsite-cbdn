@@ -55,6 +55,11 @@
 }
 
 @media screen and (max-width: 1080px) {
+    .section-one {
+        width: 100dvw;
+        height: 100dvh;
+    }
+
     .section-one-left {
         width: 100%;
         display: flex;
@@ -94,6 +99,11 @@
 }
 
 @media screen and (max-width: 800px) {
+    .section-one {
+        width: 100dvw;
+        height: 100dvh;
+    }
+
     .section-one-left {
         width: 100%;
         display: flex;
