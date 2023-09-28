@@ -80,7 +80,7 @@
     .section-one-left > h4 {
         transform: translateX(0px);
         margin: 5px;
-        font-size: 50%;
+        font-size: 2dvi;
     }
 
     .section-one-right {
@@ -101,7 +101,7 @@
 @media (max-width: 801px) {
     .section-one {
         width: 100dvw;
-        height: 100dvh;
+        height:100dvh;
     }
 
     .section-one-left {
@@ -125,7 +125,7 @@
     .section-one-left > h4 {
         transform: translateX(0px);
         margin-bottom: 5px;
-        font-size: 50%;
+        font-size: 3dvi;
     }
 
     .section-one-right {
