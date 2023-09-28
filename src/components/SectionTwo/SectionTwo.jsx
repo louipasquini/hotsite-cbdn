@@ -43,7 +43,7 @@ const SectionTwo = ({ fakeModel , originalCBDN , cbdnOn , setCbdnOn}) => {
     return (
     <div className="section-two" style={{
         backgroundColor: cbdnOn ? 'var(--midnight-blue)' : 'var(--snow-ice)',
-        height: cbdnOn && windowWidth.current < 800 ? '200dvh' : '160dvh'
+        height: cbdnOn && windowWidth.current < 801 ? '200dvh' : '130dvh'
     }}>
         {cbdnOn ? newText : previousText}
         <ReactPlayer style={{
